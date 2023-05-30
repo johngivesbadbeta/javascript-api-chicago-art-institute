@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Chicago Art Institute Gallery</title>
+</head>
+<body>
+    <h1>MY FAVORITE PIECES AT THE CHICAGO ART INSTITUTE</h1>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1 popup" id="fig-1" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/theRock.jpg" alt="the rock by peter blume" id = "56682" class="gallery__img">
+                <div class="popuptext"  id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--2 popup" id="fig-2" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/figureWithMeat.jpg" alt="figure with meat by francis bacon" id = "4884" class="gallery__img">
+                <div class="popuptext" id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--3 popup" id="fig-3" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/rocksAtPort.jpg" alt="rocks at port-goulphar, belle-Île by claude monet" id = "20545"class="gallery__img">
+                <div class="popuptext" id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--4 popup" id="fig-4" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/mountainBrook.jpg" alt="mountain brook by albert bierstadt" id = "146701" class="gallery__img">
+                <div class="popuptext" id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--5 popup" id="fig-5" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/songOfTheLark.jpg" alt="the song of the lark by jules adolphe breton" id = "94841" class="gallery__img">
+                <div class="popuptext" id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--6 popup" id="fig-6" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img src="images/starryNight.jpg" alt="starry night and the astronauts by alma thomas" id = "129884" class="gallery__img">
+                <div class="popuptext" id="mypopup">
+                    <h2 id="title"></h2>
+                    <h3 id="artist"></h3>
+                </div>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
